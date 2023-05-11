@@ -1,5 +1,3 @@
-package PaqG07;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,6 +23,7 @@ public class Interfaz extends JFrame {
     private JTextField IdContenedor2;
     private JTextField paisCoso;
     private JButton paisButton;
+
 
     private Integer id;
     private Integer peso;
@@ -113,8 +112,9 @@ public class Interfaz extends JFrame {
                 DatosContenedor cositas = new DatosContenedor(puerto.toString(), 900, 630);
             }
         });
-
+        mostrar
     }
+
 
 }
 
